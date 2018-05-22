@@ -10,18 +10,18 @@ using System.Threading.Tasks;
 
 namespace Service.Models
 {
-    class User
+    public class User
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         [Display(Name = "User Id")]
         public int Id { get; set; }
         [Required(ErrorMessage = "The User Name cannot be Empty")]
-        [StringLength(20)]
+        [StringLength(50)]
         [Display(Name = "User Name")]
         public string UserName { get; set; }
         [Required(ErrorMessage = "The Password cannot be Empty")]
-        [StringLength(20)]
+        [StringLength(50)]
         [Display(Name = "Password")]
         [DataType(DataType.Password)]
         public string Password { get; set; }

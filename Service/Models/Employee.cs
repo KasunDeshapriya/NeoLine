@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Service.Models
 {
-    class Employee
+    public class Employee
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]

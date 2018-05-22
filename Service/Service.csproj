@@ -38,6 +38,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess\Login.cs" />
     <Compile Include="Migrations\201805211230262_abc.cs" />
     <Compile Include="Migrations\201805211230262_abc.Designer.cs">
       <DependentUpon>201805211230262_abc.cs</DependentUpon>
