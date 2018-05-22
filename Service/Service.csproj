@@ -47,7 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataAccess\Login.cs" />
     <Compile Include="Migrations\201805211230262_abc.cs" />
     <Compile Include="Migrations\201805211230262_abc.Designer.cs">
       <DependentUpon>201805211230262_abc.cs</DependentUpon>
