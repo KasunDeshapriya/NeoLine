@@ -18,7 +18,6 @@ namespace Service.Models
         [Display(Name = "Initials")]
         public string Initials { get; set; }
         [Required(ErrorMessage = "The  Name Denoted By Initials cannot be Empty")]
-        [StringLength(20)]
         [Display(Name = "Name Denoted By Initials")]
         public string NameDenoted { get; set; }
         [Required(ErrorMessage = "The First Name cannot be Empty")]
@@ -40,10 +39,10 @@ namespace Service.Models
         public string Address { get; set; }
         [DataType(DataType.Date)]
         [Display(Name = "Joined Date")]
-        public DateTime JoinedDate { get; set; }
+        public DateTime? JoinedDate { get; set; }
          [DataType(DataType.Date)]
          [Display(Name = "Resignation Date")]
-        public DateTime ResignationDate { get; set; }
+        public DateTime? ResignationDate { get; set; }
         [Display(Name = "Active Status")]
         public int ActiveStatus { get; set; }
         [Required(ErrorMessage = "The Mobile Number cannot be Empty")]

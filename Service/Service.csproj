@@ -47,9 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201805211230262_abc.cs" />
-    <Compile Include="Migrations\201805211230262_abc.Designer.cs">
-      <DependentUpon>201805211230262_abc.cs</DependentUpon>
+    <Compile Include="Migrations\201805220646552_abc.cs" />
+    <Compile Include="Migrations\201805220646552_abc.Designer.cs">
+      <DependentUpon>201805220646552_abc.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Context.cs" />
@@ -62,12 +62,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805211230262_abc.resx">
-      <DependentUpon>201805211230262_abc.cs</DependentUpon>
-    </EmbeddedResource>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
+    <EmbeddedResource Include="Migrations\201805220646552_abc.resx">
+      <DependentUpon>201805220646552_abc.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
