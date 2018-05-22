@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Service.Models
 {
-    class Context :DbContext
+    public class Context :DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Employee> Employees { get; set; }
